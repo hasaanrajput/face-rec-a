@@ -9,4 +9,18 @@ body {
   margin: 0;
   background: #111827;
   color: #f9fafb;
+  overflow-x: hidden;
+}
+
+.camera-frame {
+  width: min(100%, 720px);
+  aspect-ratio: 9 / 7;
+}
+
+@media (max-width: 639px) {
+  .camera-frame {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    border-radius: 1rem;
+  }
 }

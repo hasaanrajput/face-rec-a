@@ -247,8 +247,7 @@ export default function Home() {
 
         <section aria-label="Live webcam analysis" className="w-full">
           <div
-            className="relative mx-auto overflow-hidden rounded-2xl border-4 border-gray-700 bg-black"
-            style={{ position: "relative", width: "min(100%, 720px)", aspectRatio: "9 / 7" }}
+            className="camera-frame relative mx-auto overflow-hidden rounded-2xl border-4 border-gray-700 bg-black"
           >
             <Webcam
               key={cameraRetryCount}
